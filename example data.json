@@ -1,0 +1,16 @@
+{
+  "days_back": 180,
+  "top_n_recommendations": 3,
+  "model_config": {
+    "return_window": 5,
+    "volume_window": 5,
+    "position_window": 20,
+    "weights": {
+      "momentum": 0.25,
+      "flow": 0.35,
+      "position": 0.20,
+      "trend": 0.15,
+      "stability": 0.05
+    }
+  }
+}
